@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>org.piesat.zzh.controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>org.piesat.zzh.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletTest</servlet-name>
+    <servlet-class>org.piesat.zzh.controller.ServletTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportWord</servlet-name>
+    <servlet-class>org.piesat.zzh.servlet.ExportWord</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>org.piesat.zzh.servlet.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Download</servlet-name>
+    <servlet-class>org.piesat.zzh.servlet.Download</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Getjson</servlet-name>
+    <servlet-class>org.piesat.zzh.servlet.Getjson</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletTest</servlet-name>
+    <url-pattern>/servlet/ServletTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportWord</servlet-name>
+    <url-pattern>/servlet/ExportWord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/servlet/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Download</servlet-name>
+    <url-pattern>/servlet/Download</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getjson</servlet-name>
+    <url-pattern>/servlet/Getjson</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
